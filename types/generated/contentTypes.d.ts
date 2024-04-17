@@ -931,7 +931,7 @@ export interface ApiGalleryGallery extends Schema.CollectionType {
     text: Attribute.Blocks & Attribute.Required;
     images: Attribute.Media & Attribute.Required;
     active: Attribute.Boolean & Attribute.Required & Attribute.DefaultTo<true>;
-    slug: Attribute.UID<'api::gallery.gallery', 'title'>;
+    slug: Attribute.UID<'api::gallery.gallery', 'title'> & Attribute.Required;
     description: Attribute.Text &
       Attribute.Required &
       Attribute.SetMinMaxLength<{
