@@ -36,7 +36,9 @@
       "required": true
     },
     "slug": {
-      "type": "uid"
+      "type": "uid",
+      "targetField": "title",
+      "required": true
     },
     "description": {
       "type": "text",
