@@ -937,6 +937,7 @@ export interface ApiGalleryGallery extends Schema.CollectionType {
       Attribute.SetMinMaxLength<{
         maxLength: 265;
       }>;
+    cover: Attribute.Media;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

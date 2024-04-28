@@ -44,6 +44,16 @@
       "type": "text",
       "maxLength": 265,
       "required": true
+    },
+    "cover": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }
